@@ -441,8 +441,8 @@
 #define MESH_HOME_Z_SEARCH 5.0f           // Z lift for homing, mesh bed leveling etc.
 
 #define X_PROBE_OFFSET_FROM_EXTRUDER 23     // Z probe to nozzle X offset: -left  +right
-//#define Y_PROBE_OFFSET_FROM_EXTRUDER 5     // Z probe to nozzle Y offset: -front +behind (Hemera Mod)
-#define Y_PROBE_OFFSET_FROM_EXTRUDER 15     // Z probe to nozzle Y offset: -front +behind (Hemera Mod)
+#define Y_PROBE_OFFSET_FROM_EXTRUDER 5     // Z probe to nozzle Y offset: -front +behind (Hemera Mod)
+//#define Y_PROBE_OFFSET_FROM_EXTRUDER 15     // Z probe to nozzle Y offset: -front +behind (Hemera Mod, removed to keep full print space even after XY calib feature)
 #define Z_PROBE_OFFSET_FROM_EXTRUDER -0.4  // Z probe to nozzle Z offset: -below (always!)
 #endif
 
